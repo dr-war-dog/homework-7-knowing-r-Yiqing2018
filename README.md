@@ -93,7 +93,11 @@ here, ggplot knows you only pass into a variable, so y is the count!
 ggplot(dc, aes(EYE)) +
   geom_bar()+ ggtitle("which eye color is more popular?")
 ```
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t){:height="50%" width="50%"}
+<p align="center">
+  <img width="460" height="300" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t">
+</p>
+
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t)
 
 
 #####  Question: which month is productive?? (DC)
