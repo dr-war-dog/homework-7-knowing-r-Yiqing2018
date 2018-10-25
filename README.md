@@ -123,9 +123,11 @@ g + geom_bar()
 g +geom_bar(aes(fill = SEX), position = position_stack(reverse = TRUE)) +
   coord_flip() + theme(legend.position = "top")+ggtitle("which year is more productive?")
 ```
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk827y5lsj30zf19u77l.jpg)  
-
-
+<!-- ![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk827y5lsj30zf19u77l.jpg)  
+ -->
+ <p align="center">
+  <img width="600" height="800" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk827y5lsj30zf19u77l.jpg">
+</p>
 #### scattered
 #####  Question: Good characters VS Bad characters (DC)
 the basical point graph only identifies YES or No, if dots are located at the same place, it look weried, so I use another attributes, it makes more sense.
@@ -134,7 +136,10 @@ the basical point graph only identifies YES or No, if dots are located at the sa
 g <- ggplot(dc, aes(YEAR,ALIGN,color=SEX)) + geom_point() 
 print(g)+ggtitle("Good characters VS Bad characters")
 ```
-![](https://ws3.sinaimg.cn/large/006tNbRwly1fwk82dzcjbj30zf19u42b.jpg) 
+<!-- ![](https://ws3.sinaimg.cn/large/006tNbRwly1fwk82dzcjbj30zf19u42b.jpg) 
+ --> <p align="center">
+  <img width="600" height="800" src="https://ws3.sinaimg.cn/large/006tNbRwly1fwk82dzcjbj30zf19u42b.jpg">
+</p>
 
 #####  Question: Year and Appearances
 study the relationship of two variables? use scattered graph.  And use two datasets to make comparison.
@@ -145,7 +150,11 @@ study the relationship of two variables? use scattered graph.  And use two datas
   + geom_point(data = marvel,color='red')
   +ggtitle("Year and Appearances \n \nred point: marvel black point: dc"))
 ```
-![](https://ws3.sinaimg.cn/large/006tNbRwly1fwk82kk334j30zf19u0yw.jpg) 
+<!-- ![](https://ws3.sinaimg.cn/large/006tNbRwly1fwk82kk334j30zf19u0yw.jpg) 
+ --> 
+ <p align="center">
+  <img width="600" height="800" src="https://ws3.sinaimg.cn/large/006tNbRwly1fwk82kk334j30zf19u0yw.jpg">
+</p>
 
 #### Dotplot: Grouped Sorted and Colored
 #####  Question: First Apperance of Marvel Characters with each Hair color? 
@@ -175,8 +184,16 @@ HairColor <- function(df,title){
 HairColor(dc,"First Apperance of DC Characters")
 HairColor(marvel,"First Apperance of Marvel Characters") 
 ```
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg)
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg)
+<!-- ![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg)
+ --> 
+ <p align="center">
+  <img width="600" height="800" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg">
+</p>
+<!-- ![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg)
+ --> 
+ <p align="center">
+  <img width="600" height="800" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk82zlc8oj30zf19u4qp.jpg">
+</p>
 
 ****
 
