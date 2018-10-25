@@ -16,7 +16,7 @@ Make use of R’s functionalities!
 ****
 
 ### data source  
-scource: DC characters and Marvel Characters [ ](https://github.com/inp2/UIUC-iSchool-DataViz/tree/master/fall2018/week09/data)  
+scource: [DC characters and Marvel Characters](https://github.com/inp2/UIUC-iSchool-DataViz/tree/master/fall2018/week09/data)  
 
 ****
 
