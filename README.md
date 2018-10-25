@@ -60,14 +60,14 @@ like this:
 DC
 
 |first|mon|YEAR|
-|---|---
+|---|---|---
 |5|May|1939|
 
 
 Marvel
 
 |first|mon|YEAR|
-|---|---
+|---|---|---
 |8|Aug|1962|
 
 Attention: before using match(data,month.abb), confirm data is in correct format. no space or something else.
