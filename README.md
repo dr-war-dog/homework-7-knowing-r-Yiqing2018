@@ -94,11 +94,11 @@ ggplot(dc, aes(EYE)) +
   geom_bar()+ ggtitle("which eye color is more popular?")
 ```
 <p align="center">
-  <img width="460" height="300" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t">
+  <img width="600" height="800" src="https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t">
 </p>
 
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t)
-
+<!-- ![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t)
+ -->
 
 #####  Question: which month is productive?? (DC)
 pass into two variables, then ggplot knows what to do. Besides, we can add more information...
@@ -108,7 +108,11 @@ g <- ggplot(dc, aes(mon))+ scale_x_discrete(limits=month.abb)+ ggtitle("which mo
 g + geom_bar()
 g + geom_bar(aes(fill = SEX))
 ```
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fwk8245wkkj30zf19uadi.jpg)  
+<!-- ![](https://ws2.sinaimg.cn/large/006tNbRwly1fwk8245wkkj30zf19uadi.jpg)  
+ -->
+ <p align="center">
+  <img width="600" height="800" src="https://ws2.sinaimg.cn/large/006tNbRwly1fwk8245wkkj30zf19uadi.jpg">
+</p>
 
 #####  Question: which year is productive? (DC)
 try a different layout
