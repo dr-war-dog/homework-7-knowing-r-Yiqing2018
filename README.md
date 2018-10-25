@@ -39,34 +39,35 @@ dc = subset(dc, select = -c(page_id) )
 ##### uniform
 
 for two dataset, they have different format to represent when these characters appeared for the first time  
+  
 
-dc  
+DC
 
-|DC| 
-|---|---
 |FIRST.APPEARANCE|YEAR|
+|---|---
 |1939, May|1939|
 
-marvel 
 
-|Marvel| 
-|---|---
+Marvel 
+
 |FIRST.APPEARANCE|Year|
+|---|---
 |Aug-62|1962|
 
 we need to rename Marvel.Year to Marvel.YEAR  
 and create two new columns(String and integer) to stroe month information  
 like this: 
+DC
 
-|DC| 
-|---|---
 |first|mon|YEAR|
+|---|---
 |5|May|1939|
 
 
-|Marvel| 
-|---|---
+Marvel
+
 |first|mon|YEAR|
+|---|---
 |8|Aug|1962|
 
 Attention: before using match(data,month.abb), confirm data is in correct format. no space or something else.
@@ -92,7 +93,7 @@ here, ggplot knows you only pass into a variable, so y is the count!
 ggplot(dc, aes(EYE)) +
   geom_bar()+ ggtitle("which eye color is more popular?")
 ```
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t.jpg)  
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fwk81r9nraj30zf19uq5t.jpg )  
 
 
 #####  Question: which month is productive?? (DC)
